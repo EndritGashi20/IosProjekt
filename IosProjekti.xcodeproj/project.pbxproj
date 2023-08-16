@@ -14,6 +14,8 @@
 		1C1536652A8A59F2008F94B2 /* IosProjekti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C1536632A8A59F2008F94B2 /* IosProjekti.xcdatamodeld */; };
 		1C1536672A8A59F3008F94B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1536662A8A59F3008F94B2 /* Assets.xcassets */; };
 		1C15366A2A8A59F3008F94B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1536682A8A59F3008F94B2 /* LaunchScreen.storyboard */; };
+		1C387CC42A8BAE3E00DFCBB0 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */; };
+		1C387CC62A8BAE6200DFCBB0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1C1536662A8A59F3008F94B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C1536692A8A59F3008F94B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C15366B2A8A59F3008F94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				1C1536682A8A59F3008F94B2 /* LaunchScreen.storyboard */,
 				1C15366B2A8A59F3008F94B2 /* Info.plist */,
 				1C1536632A8A59F2008F94B2 /* IosProjekti.xcdatamodeld */,
+				1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */,
+				1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */,
 			);
 			path = IosProjekti;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C15365F2A8A59F2008F94B2 /* ViewController.swift in Sources */,
+				1C387CC42A8BAE3E00DFCBB0 /* DatabaseHelper.swift in Sources */,
 				1C15365B2A8A59F2008F94B2 /* AppDelegate.swift in Sources */,
+				1C387CC62A8BAE6200DFCBB0 /* TableViewCell.swift in Sources */,
 				1C15365D2A8A59F2008F94B2 /* SceneDelegate.swift in Sources */,
 				1C1536652A8A59F2008F94B2 /* IosProjekti.xcdatamodeld in Sources */,
 			);
