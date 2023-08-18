@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         loaddata()
         tableView.reloadData()
     }
-
+    
     func loaddata(){
         
         images = DatabaseHelper.shareInstance.fetchImage()
@@ -53,12 +53,4 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
-    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            let row = images[indexPath.row]
-            images.remove(at: indexPath.row)
-            DatabaseHelper.shareInstance.deleteData(title: row.title!)
-            self.tableView.reloadData()
-        }
-    }
 }
