@@ -52,5 +52,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
         
     }
-    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+           if editingStyle == .delete {
+               let row = images[indexPath.row]
+               images.remove(at: indexPath.row)
+               DatabaseHelper.shareInstance.deleteData(title: row.title!)
+               self.tableView.reloadData()
+           }
+       }
 }

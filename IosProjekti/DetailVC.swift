@@ -35,7 +35,10 @@ class DetailVC: UIViewController, UINavigationControllerDelegate, UIImagePickerC
         
         if let imageData = selectImage.image?.jpegData(compressionQuality: 1) {
             DatabaseHelper.shareInstance.save(title: title, shortdescription: shortDesc, image: imageData)
-        }
+            let alertController = UIAlertController(title: "Success", message: "Fotografia u regjistrua me sukses!", preferredStyle: .alert)
+                       let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                       alertController.addAction(okAction)
+                       present(alertController, animated: true, completion: nil)        }
         
         _ = navigationController?.popViewController(animated: true)
         

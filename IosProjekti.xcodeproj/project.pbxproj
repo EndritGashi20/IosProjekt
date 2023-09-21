@@ -16,6 +16,7 @@
 		1C15366A2A8A59F3008F94B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1536682A8A59F3008F94B2 /* LaunchScreen.storyboard */; };
 		1C387CC42A8BAE3E00DFCBB0 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */; };
 		1C387CC62A8BAE6200DFCBB0 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */; };
+		1C6E11452ABA6F4A0021C22C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C6E11442ABA6F4A0021C22C /* 1.jpg */; };
 		1CB2BB742A8E63A100A3539F /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB2BB732A8E63A100A3539F /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		1C15366B2A8A59F3008F94B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1C6E11442ABA6F4A0021C22C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../1.jpg; sourceTree = "<group>"; };
 		1CB2BB732A8E63A100A3539F /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				1C387CC32A8BAE3E00DFCBB0 /* DatabaseHelper.swift */,
 				1C387CC52A8BAE6100DFCBB0 /* TableViewCell.swift */,
 				1CB2BB732A8E63A100A3539F /* DetailVC.swift */,
+				1C6E11442ABA6F4A0021C22C /* 1.jpg */,
 			);
 			path = IosProjekti;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C15366A2A8A59F3008F94B2 /* LaunchScreen.storyboard in Resources */,
+				1C6E11452ABA6F4A0021C22C /* 1.jpg in Resources */,
 				1C1536672A8A59F3008F94B2 /* Assets.xcassets in Resources */,
 				1C1536622A8A59F2008F94B2 /* Main.storyboard in Resources */,
 			);
